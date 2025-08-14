@@ -1,0 +1,19 @@
+Create a webpage scraping tool that extracts the main table from https://sudhelpla.org/. The table can be found in <div class="agencies"> and the individual rows to extract can be found in <div class="agency-listing row">. 
+
+The table columns are "Agency", "Available Beds", "Intake Information", "Specific Service Type", and "Languages Spoken". 
+
+Each of those will have a complex struct of information inside of them. 
+
+- "Agency" will contain the name of the facility, address, business hours, phone number, a secondary agency name, a link for licensed practitioners, and an indicator of whether it is whellchair accessible. 
+- "Available Beds" contains a nullable list of Service Types (e.g., RS(3.1) means 'Intensive addiction treatment in a setting where patients stay overnight for a period of time for their treatment, with level 3.5 being more intensive than level 3.1') and then a structured string like 'Adult - M: 0' where the first part is whether they support adults or youth, the second part indicates gender, and the third part indicates the number of available beds. So in the case of 'Adult - M: 0', there are no beds available for adult males at this facility. NOTE: all Treatment/Service Types can be found in <div class="filter-container" id="filterContainer">, with descriptions in tool tips like <span class="fa fa-question-circle" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Intensive addiction treatment in a setting where patients stay overnight for a period of time for their treatment, with level 3.5 being more intensive than level 3.1" data-bs-original-title="Intensive addiction treatment in a setting where patients stay overnight for a period of time for their treatment, with level 3.5 being more intensive than level 3.1"></span> Separately build a csv of all the different services so that we can better understand the information in the main table. 
+- "Intake Information" shows the number of available intake appointments and a table of intake hours. 
+- "Specific Service Type" is a bulleted list of demographic populations served by the agency.
+- "Languages Spoken" is a bulleted list of the languages supported at the agency. 
+
+Finally, at the bottom of every row exists <div class="last-update"> which contains the date and time of the last update. 
+
+The website table has only 5 columns, but our parsed version of it should have many more. For example, we could do something like this or a better schema if you can think of one. 
+
+agency.name, agency.name_secondary, agency.address, agency.phone, agency.website, agency.wheelchair_access, agency.hours.sunday.open, agency.hours.sunday.close, agency.hours.monday.open, agency.hours.monday.close, agency.hours.tuesday.open, agency.hours.tuesday.close, agency.hours.wednesday.open, agency.hours.wednesday.close, agency.hours.thursday.open, agency.hours.thursday.close, agency.hours.friday.open, agency.hours.friday.close, agency.hours.satday.open, agency.hours.satday.close, intake.available_beds, intake.open_appointments, intake.hours.sunday.open, intake.hours.sunday.close, intake.hours.monday.open, intake.hours.monday.close, intake.hours.tuesday.open, intake.hours.tuesday.close, intake.hours.wednesday.open, intake.hours.wednesday.close, intake.hours.thursday.open, intake.hours.thursday.close, intake.hours.friday.open, intake.hours.friday.close, intake.hours.satday.open, intake.hours.satday.close, populations_served, languages_spoken, updated_date
+
+Write your script in /home/fabricehc/SUD-BedWatch/scripts and save the csv file in /home/fabricehc/SUD-BedWatch/data with the datetime in the name so that we know when it was pulled. Write the script in a flexible fashion so that it may be called on a regular basis to pull the latest information. 
