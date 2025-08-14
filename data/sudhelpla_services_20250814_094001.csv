@@ -1,0 +1,57 @@
+category,service_code,service_name,description
+Treatment/Service Type,OP,"Outpatient Treatment, Level 1",Addiction treatment in an outpatient setting where services are provided during an appointment at a clinic
+Treatment/Service Type,IOP,"Intensive Outpatient, Level 2.1",Intensive addiction treatment in an outpatient setting where services are provided during an appointment at a clinic
+Treatment/Service Type,RS,"Residential Treatment, Levels 3.1","Intensive addiction treatment in a setting where patients stay overnight for a period of time for their treatment, with level 3.5 being more intensive than level 3.1"
+Treatment/Service Type,,RS (Levels 3.1) - Male,
+Treatment/Service Type,,RS (Levels 3.1) - Female,
+Treatment/Service Type,RS,"Residential Population-Specific Treatment, Level 3.3",Intensive addiction treatment in a setting where patients who require a slower pace to their treatment due to cognitive or mental health conditions stay overnight for a period of time for their treatment
+Treatment/Service Type,,PSRS (Levels 3.3) - Male,
+Treatment/Service Type,,PSRS (Levels 3.3) - Female,
+Treatment/Service Type,RS,"Residential Treatment, Levels 3.5","Intensive addiction treatment in a setting where patients stay overnight for a period of time for their treatment, with level 3.5 being more intensive than level 3.1"
+Treatment/Service Type,,RS (Levels 3.5) - Male,
+Treatment/Service Type,,RS (Levels 3.5) - Female,
+Treatment/Service Type,A-WM,"Ambulatory - Withdrawal Management, Levels 1-WM & 2-WM","Treatment for withdrawal symptoms from substances in an outpatient (e.g., clinic) setting"
+Treatment/Service Type,R-WM,"Residential - Withdrawal Management, Level 3.2-WM",Treatment for withdrawal symptoms from substances in a residential setting
+Treatment/Service Type,,R-WM - Male,
+Treatment/Service Type,,R-WM - Female,
+Treatment/Service Type,I-WM,"Inpatient – Withdrawal Management, Levels 3.7-WM & 4-WM",Treatment for severe withdrawal symptoms in a hospital setting
+Treatment/Service Type,,I-WM - Male,
+Treatment/Service Type,,I-WM - Female,
+Treatment/Service Type,OTP,Opioid Treatment Program,Substance use treatment where methadone and other medications are often prescribed for opioid use and other addictions
+Treatment/Service Type,RBH,Recovery Bridge Housing,Bridge (temporary) recovery housing provided in a sober environment for individuals with unsafe living conditions and receiving concurrent substance use treatment
+Treatment/Service Type,,RBH - Male,
+Treatment/Service Type,,RBH - Female,
+Treatment/Service Type,DUI,Driving Under the Influence,Licensed programs for individuals who are convicted of a DUI and need to comply with court and Department of Motor Vehicle (DMV) requirements
+Languages Spoken,,American Sign Language,
+Languages Spoken,,Arabic,
+Languages Spoken,,Armenian,
+Languages Spoken,,Cambodian,
+Languages Spoken,,Cantonese,
+Languages Spoken,,Farsi,
+Languages Spoken,,Korean,
+Languages Spoken,,Mandarin,
+Languages Spoken,,Other Chinese,
+Languages Spoken,,Russian,
+Languages Spoken,,Spanish,
+Languages Spoken,,Tagalog,
+Languages Spoken,,Vietnamese,
+Client Served,,Adult,Services for adults age 21 and over
+Client Served,,Youth,Services for youth age 20 and under
+Client Served,,Women,Services specialized for women
+Client Served,MAT,Medications for Addiction Treatment,"Services that may include the use of medications for addiction treatment, such as buprenorphine/Suboxone, Vivitrol/injectable naltrexone, methadone, etc."
+Client Served,,Parent/Guardian (Female) with Children,Treatment services that accommodate children for women who need to bring their children to treatment
+Client Served,,Parent/Guardian (Male) with Children,Services that accommodate children for men who need to bring their children to treatment
+Client Served,,Perinatal,Specialized services for women who are pregnant and up to 60 days after pregnancy
+Client Served,,Visually Impaired/Blind,Specialized services for individuals with visual impairment
+Client Served,,Hearing Impaired/Deaf,Specialized services for individuals who are deaf or hard of hearing
+Client Served,,Co-Occurring Mental Health Condition,Specialized services for individuals with both substance use and mental health issues
+Client Served,,Physically Disabled and/or Medically Vulnerable,"Specialized services for individuals with physical and/or mobility disabilities, or those with serious medical conditions"
+Client Served,,Developmentally or Intellectually Disabled/Delayed,"Specialized services for individuals who may have difficulty learning, communicating, or performing activities or meeting expected milestones due to cognitive disabilities/delays"
+Client Served,LGBTQIA,"Lesbian, Gay, Bisexual, Transgender, Questioning, Intersex, Asexual","Specialized services for individuals who identify as lesbian, gay, bisexual, transgender, questioning, intersex or asexual"
+Client Served,,Veteran,Specialized services for individuals who are military veterans
+Client Served,,Homeless,Specializes in serving individuals who are unstably housed and lack support/resources to become permanently housed
+Client Served,,"Court Diversion, Probation/Parole, Re-entry",Specialized services for individuals charged with a crime and under criminal justice system supervision (Court/Parole/Probation)
+Client Served,,Sexually-Exploited,Specialized services for individuals with a history of having been sexually exploited and/or trafficked
+Additional filters,,Services available after 5 p.m.,Services available after typical business hours
+Additional filters,,Intake appointments available on the weekend,Services available after typical business hours
+Additional filters,,Beds available now,Beds available now
